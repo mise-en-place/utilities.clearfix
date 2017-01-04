@@ -1,6 +1,7 @@
 // ==========================================================================
-// CLEARFIX UTIL
+// CLEARFIX UTILITY
 // ==========================================================================
+
 /*doc
 ---
 title: Clearfix
@@ -17,7 +18,6 @@ Clear a float.
 </div>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus quam iure, quidem commodi sequi quae maiores excepturi recusandae temporibus magnam ratione eius ex corporis et quia voluptas in, mollitia a?</p>
 ```
-
 */
 
 @mixin clearfix {
@@ -27,7 +27,6 @@ Clear a float.
     clear: both;
   }
 }
-
 
 .u-clearfix {
     @include clearfix();
