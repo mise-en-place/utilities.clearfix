@@ -20,13 +20,7 @@ Clear a float.
 ```
 */
 
-@mixin clearfix {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
+@import './mixins';
 
 .u-clearfix {
     @include clearfix();
