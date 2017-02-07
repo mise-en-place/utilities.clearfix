@@ -18,5 +18,8 @@
     "url": "https://github.com/mise-en-place/utilities.clearfix.git"
   },
   "author": "Kind",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mep-tools.clearfix": "github:mise-en-place/tools.clearfix"
+  }
 }

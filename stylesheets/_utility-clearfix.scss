@@ -20,7 +20,7 @@ Clear a float.
 ```
 */
 
-@import './mixins';
+@import "tool-clearfix";
 
 .u-clearfix {
     @include clearfix();
