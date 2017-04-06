@@ -20,7 +20,7 @@ Clear a float.
 ```
 */
 
-@import "tool-clearfix";
+@import "~mep-tools.clearfix";
 
 .u-clearfix {
     @include clearfix();
